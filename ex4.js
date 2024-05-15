@@ -47,10 +47,19 @@ while (x > 0) {
 // - Print all the odd numbers between 1 - 100.
 // ```
 
-for (let i = 1; i <= 100; i++) {
-  if (i % 2 != 0) {
-    console.log(i);
-  }
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 2 != 0) {
+//     console.log(i);
+//   }
+// }
+
+let numForOdd = 1;
+
+while(numForOdd <= 100){
+    if (numForOdd % 2 != 0) {
+        console.log(numForOdd);
+      }
+      numForOdd++;
 }
 
 // ```
